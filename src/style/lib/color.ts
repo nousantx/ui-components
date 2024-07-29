@@ -1,3 +1,8 @@
+/*!
+ * This file includes color definitions derived from Tailwind CSS.
+ * See https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE for more details.
+ */
+
 export const colors: { [color: string]: string[] } = {
   slate: [
     "#f8fafc",
@@ -284,5 +289,6 @@ export const colors: { [color: string]: string[] } = {
     "#9f1239",
     "#881337",
     "#4c0519"
-  ]
+  ],
+  primary: ["#F9FFF2", "#E8FFCB", "#DBFEA4", "#D1FB7B", "#CAF553", "#A2C12B", "#7C8E17", "#535A0D", "#252605"]
 };
