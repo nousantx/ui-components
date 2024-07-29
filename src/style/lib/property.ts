@@ -18,7 +18,7 @@ const regProps = {
   "br-top": ["borderTopLeftRadius", "borderTopRightRadius"]
 };
 
-const customValueProsp = {
+const customValueProps = {
   moveX: {
     property: "transform",
     value: "translateX({value})"
@@ -37,4 +37,4 @@ const customValueProsp = {
   }
 };
 
-export const property = [propsLib.default, { ...cssVariableProps, ...regProps, ...customValueProsp }];
+export const property = [propsLib.default, { ...cssVariableProps, ...regProps, ...customValueProps }];
