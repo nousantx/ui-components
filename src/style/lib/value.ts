@@ -6,5 +6,8 @@ export const values: {
   darker: "#1f2024",
   dark: "#34363b",
   lighter: "#f1f1f2",
-  light: "#ceced3"
+  light: "#ceced3",
+  family:{
+    code:"JetBrains Mono"
+  }
 };
